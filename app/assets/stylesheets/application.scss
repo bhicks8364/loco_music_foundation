@@ -1,0 +1,123 @@
+@import "bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Covered+By+Your+Grace|Josefin+Sans|Rock+Salt|Lato);
+$font-family-sans-serif: 'Indie Flower', sans-serif;
+
+
+// body { padding-top: 70px;}
+// html { padding-top: -70px;}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: url(laith-abuabdu-CgfRXcX-oko-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // color: white;
+    // background-color: rgb(34, 34, 34);
+    background-color: #ffffff;
+    // background: #ffffff url("feature3.jpg") no-repeat center top;
+    // background-size: cover;
+    // padding-top: 90px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#main-content {
+    width: 80%;
+}
+
+.music-notes-bg {
+    /* The image used */
+    background-image: url("musical-notes.png");
+    background-color: #00ff00;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    min-height: 400px;
+}
+// .music-gif-bg {
+//     /* The image used */
+//     background-image: url("music_slant.gif");
+//     // background-color: #00ff00;
+//     /* Full height */
+//     height: 100%; 
+
+//     /* Center and scale the image nicely */
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+.narrowed {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+.grace {
+    font-family: 'Covered By Your Grace', cursive;
+}
+.rock {
+    font-family: 'Rock Salt', cursive;
+}
+.shadow {
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.screenshot {
+    max-width: 550px;
+}
+
+.contact-list {
+    max-width: 600px;
+    margin: auto;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.role {
+    margin-right: 15px;
+    font-weight: bolder;
+    // font-family: 'Covered By Your Grace', cursive;
+}
+
+.contact-list-item {
+    background-color: rgba(252, 250, 251, 0.89);
+    border: solid 2px black;
+    margin: 5px;
+    padding:10px;
+    overflow: hidden;
+}
+
+.light {
+    background-color: rgba(252, 250, 251, 0.80);
+    border: solid 2px black;
+    margin: auto;
+    padding:20px;
+    overflow: hidden;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    min-height: 400px;
+}
+
+.item {
+    width: 100%;
+}
